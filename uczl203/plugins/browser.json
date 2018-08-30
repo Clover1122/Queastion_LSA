@@ -36,6 +36,9 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "BasicApp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "BasicApp"
     }
   },
   "dependent_plugins": {
