@@ -1,1 +1,7 @@
 # Queastion_LSA
+
+This application is designed to set questions to the specific locations which alloes user to choose where and how many questions to set. Users are required to upload one question and four answer choices with a correct answer. This app is iterative and can keep operating until user closes it.
+
+The main body of this app is based on the practical 6 & 7 which guide students to create a uploadData.js & httpServer.js. The index.html file is also built on the practical in week2. When user try to run it, just use node httpServer.js & and then enter phonegap serve, a website with a map and user guide will show in a browser, like Picture 1. The navigation bar contains QuestionID, Question, 4Answers, Correct_Answer, coordinates, and Location Name. Just follow the userguide which layed on the bottom of the map to enter what you want (P.S. the Correct_Answer is referred to the ID of Answer (1,2,3,4) instead the content of the correct answer. The coordinates of test points can be extracted from https://itouchmap.com/latlong.html, user can also use this website to check and find the location they want.
+
+PLEASE ATTENTION: The results of the attempts at the beginning are very successful, but recently, the code cannot upload the question data sometimes, which means user may need to enter the coordinates manually once the app cannot upload. But this situation does not happen frequently.
